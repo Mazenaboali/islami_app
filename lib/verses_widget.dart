@@ -11,9 +11,8 @@ class versesWidget extends StatelessWidget
     return Container(
       padding: EdgeInsets.symmetric(vertical: 15,horizontal: 8),
       alignment: Alignment.center,
-      child: Text(' $ayat [$nos_ayat]',textAlign: TextAlign.center,style: TextStyle(
-        fontSize: 18,
-      ),
+      child: Text(' $ayat [$nos_ayat]',textAlign: TextAlign.center,
+          style:Theme.of(context).textTheme.headline4,
         textDirection: TextDirection.rtl,
       ),
 
