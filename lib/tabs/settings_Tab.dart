@@ -27,7 +27,7 @@ class _settings_screenState extends State<settings_screen> {
             child: Container(
               decoration: BoxDecoration(
                  borderRadius: BorderRadius.circular(18),
-                border: Border.all(color: Theme.of(context).accentColor)
+                border: Border.all(color: Theme.of(context).hintColor)
               ),
                 child: Padding(
                   padding: const EdgeInsets.all(12.0),
@@ -48,7 +48,7 @@ class _settings_screenState extends State<settings_screen> {
             child: Container(
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(18),
-                    border: Border.all(color: Theme.of(context).accentColor)
+                    border: Border.all(color: Theme.of(context).hintColor)
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(12.0),

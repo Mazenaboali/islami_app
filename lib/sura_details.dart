@@ -49,7 +49,7 @@ class _SuraDetailsState extends State<SuraDetails> {
           separatorBuilder: (_,__){
             return Container(
               height: 1,
-              color: Theme.of(context).accentColor,
+              color: Theme.of(context).hintColor,
               margin: EdgeInsets.symmetric(horizontal: 60),
               padding: EdgeInsets.symmetric(vertical: 18,horizontal: 8),
             );
