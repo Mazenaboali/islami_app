@@ -5,6 +5,7 @@ import 'package:islami_app/hadeth_title_widget.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 List<Hadeth>Hadeths=[];
+
 class HadethTab extends StatefulWidget
 {
 
@@ -19,7 +20,6 @@ class _HadethTabState extends State<HadethTab> {
     if(Hadeths.isEmpty)
       loadFile();
     return Column(
-
       children: [
         Image.asset('assets/images/ahadeth_sura.png'),
         Container(

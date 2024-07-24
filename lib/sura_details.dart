@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:islami_app/my%20theme.dart';
 import 'package:islami_app/providers/settings_provider.dart';
 import 'package:islami_app/tabs/suraDetailsScreen%20arg.dart';
 import 'package:islami_app/verses_widget.dart';

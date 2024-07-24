@@ -8,7 +8,6 @@ class ThemeBottomSheet extends StatefulWidget
   @override
   State<ThemeBottomSheet> createState() => _ThemeBottomSheetState();
 }
-
 class _ThemeBottomSheetState extends State<ThemeBottomSheet> {
   @override
   Widget build(BuildContext context) {
@@ -21,13 +20,10 @@ class _ThemeBottomSheetState extends State<ThemeBottomSheet> {
          InkWell(
            onTap: (){
              settingsprovider.changetheme(ThemeMode.light);
-
            },
              child: settingsprovider.currenttheme==ThemeMode.light
                  ? selecteditem(AppLocalizations.of(context)!.light)
                  : unselecteditem(AppLocalizations.of(context)!.light)),
-                
-
           SizedBox(height: 12,),
          InkWell(
              onTap: (){

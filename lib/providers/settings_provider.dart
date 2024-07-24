@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class SettingsProvider extends ChangeNotifier
 {
+
   ThemeMode currenttheme=ThemeMode.light;
   String local='en';
   void changetheme(ThemeMode newmode)
@@ -17,7 +18,6 @@ class SettingsProvider extends ChangeNotifier
   String getMainBackgroundImage() {
      if(currenttheme == ThemeMode.dark)
        {  return 'assets/images/main_background_dark.png';}
-
      else {
        return 'assets/images/background_homescreen.png';
   }

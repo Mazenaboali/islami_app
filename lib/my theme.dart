@@ -19,7 +19,7 @@ class My_theme
       )
     ),
     cardColor: white,
-    hintColor: light_primary,
+    accentColor: light_primary,
       textTheme: TextTheme(
           headline6: TextStyle(
               fontSize: 22,
@@ -75,7 +75,7 @@ class My_theme
           )
       ),
     cardColor: dark_primary,
-    hintColor: yellow,
+    accentColor: yellow,
     textTheme: TextTheme(
       headline6: TextStyle(
         fontSize: 22,
