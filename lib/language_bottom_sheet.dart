@@ -48,8 +48,8 @@ class _LangBottomSheetState extends State<LangBottomSheet> {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(title,style:Theme.of(context).textTheme.headline4?.copyWith(
-            color: Theme.of(context).accentColor)),
-        Icon(Icons.check,color: Theme.of(context).accentColor,)
+            color: Theme.of(context).hintColor)),
+        Icon(Icons.check,color: Theme.of(context).hintColor,)
       ],
 
     );

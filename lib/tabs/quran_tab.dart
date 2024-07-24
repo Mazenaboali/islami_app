@@ -29,7 +29,7 @@ class QuranTab extends StatelessWidget
             child: Column(
               children: [
                 Container(
-                  color: Theme.of(context).accentColor,
+                  color: Theme.of(context).hintColor,
                   height: 2,
                   width: double.infinity,
                 ),
@@ -38,13 +38,13 @@ class QuranTab extends StatelessWidget
                   child: Text( AppLocalizations.of(context)!.chapter_name,style: Theme.of(context).textTheme.headline4),
                 ),
                 Container(
-                  color: Theme.of(context).accentColor,
+                  color: Theme.of(context).primaryColor,
                   height: 2,
                   width: double.infinity,
                 ),
                 Expanded(child: ListView.separated(itemBuilder: (_,index){return SuraTitleWidget(suraName[index],index); },
                     itemCount: suraName.length,separatorBuilder:(_,index){
-                 return Container( color: Theme.of(context).accentColor, height: 1,
+                 return Container( color: Theme.of(context).hintColor, height: 1,
                     width:double.infinity ,
                     margin: EdgeInsets.symmetric(horizontal: 64),
                   );

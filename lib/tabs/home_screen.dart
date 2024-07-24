@@ -42,7 +42,6 @@ class _homeScreenState extends State<homeScreen> {
           },
           currentIndex:selectedindex ,
           items: [
-
             BottomNavigationBarItem(
                 backgroundColor:  Theme.of(context).primaryColor,
                 icon: ImageIcon(AssetImage('assets/images/ic_quran.png')),
